@@ -23,7 +23,7 @@ on:
       upload_method:
         description: "Upload Method"
         required: true
-        default: "repository"
+        default: "release"
         type: choice
         options:
           - repository
